@@ -1,0 +1,46 @@
+{
+  "pipeline": "GNN \u2192 Legalization \u2192 Cell Swap \u2192 Simulated Annealing",
+  "model": {
+    "type": "GAT (Graph Attention Network)",
+    "params": 76866,
+    "hidden_dim": 128,
+    "layers": 4,
+    "heads": 4
+  },
+  "training": {
+    "phase1_epochs": 15,
+    "phase2_epochs": 15,
+    "loss": "HPWL + Density + MSE (weighted)"
+  },
+  "average_metrics": {
+    "gnn_hpwl_ratio": 2.4649999141693115,
+    "optimized_hpwl_ratio": 7.756,
+    "improvement_pct": -212.7
+  },
+  "per_sample_results": [
+    {
+      "sample": "10004-zero-riscy-b-3-c2-u0.85-m2-p4-f1",
+      "cells": 20865,
+      "hpwl_gt": 603751.6875,
+      "hpwl_gnn": 1386817.875,
+      "hpwl_legal": 3938618.317603171,
+      "hpwl_opt": 3938613.6008690903,
+      "ratio_gnn": 2.2970004081726074,
+      "ratio_opt": 6.523565370356153,
+      "improvement": -184.003665648533,
+      "time": 10.194636583328247
+    },
+    {
+      "sample": "10005-zero-riscy-b-3-c2-u0.85-m2-p5-f1",
+      "cells": 20854,
+      "hpwl_gt": 603289.875,
+      "hpwl_gnn": 1588779.5,
+      "hpwl_legal": 5422702.258902371,
+      "hpwl_opt": 5422682.640409994,
+      "ratio_gnn": 2.633525848388672,
+      "ratio_opt": 8.98851922620116,
+      "improvement": -241.3112165917293,
+      "time": 11.492256164550781
+    }
+  ]
+}
