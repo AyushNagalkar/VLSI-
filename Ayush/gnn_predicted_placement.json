@@ -1,0 +1,1304 @@
+{
+  "design": "user_design",
+  "num_cells": 162,
+  "chip_width": 16.431676725154983,
+  "chip_height": 16.431676725154983,
+  "cells": [
+    {
+      "name": "g6201",
+      "type": "OAI221XL",
+      "predicted_x": 0.0,
+      "predicted_y": 1.0,
+      "global_x": 0.0,
+      "global_y": 0.0
+    },
+    {
+      "name": "g6211",
+      "type": "OAI2BB2XL",
+      "predicted_x": 2.0,
+      "predicted_y": 1.0,
+      "global_x": 0.969142546192835,
+      "global_y": 0.0
+    },
+    {
+      "name": "g6236",
+      "type": "OAI2BB1XL",
+      "predicted_x": 7.0,
+      "predicted_y": 1.0,
+      "global_x": 3.252230334208063,
+      "global_y": 0.6386509055266253
+    },
+    {
+      "name": "g6218",
+      "type": "AOI2BB1XL",
+      "predicted_x": 6.0,
+      "predicted_y": 1.0,
+      "global_x": 3.0610897999453317,
+      "global_y": 0.0
+    },
+    {
+      "name": "tx_busy_reg",
+      "type": "DFFX1",
+      "predicted_x": 10.0,
+      "predicted_y": 1.0,
+      "global_x": 4.531766656067424,
+      "global_y": 0.07190590153976849
+    },
+    {
+      "name": "g6208",
+      "type": "NAND2XL",
+      "predicted_x": 14.0,
+      "predicted_y": 1.0,
+      "global_x": 6.587826579135072,
+      "global_y": 0.0
+    },
+    {
+      "name": "g6248",
+      "type": "OAI211XL",
+      "predicted_x": 16.2,
+      "predicted_y": 1.0,
+      "global_x": 7.919716955406271,
+      "global_y": 0.7119074055330279
+    },
+    {
+      "name": "g6209",
+      "type": "NAND2XL",
+      "predicted_x": 16.2,
+      "predicted_y": 1.0,
+      "global_x": 8.685984724966001,
+      "global_y": 0.0
+    },
+    {
+      "name": "g6210",
+      "type": "NAND2XL",
+      "predicted_x": 16.2,
+      "predicted_y": 1.0,
+      "global_x": 10.324707273333084,
+      "global_y": 0.0
+    },
+    {
+      "name": "g6205",
+      "type": "NAND2XL",
+      "predicted_x": 16.2,
+      "predicted_y": 1.0,
+      "global_x": 12.144740075462822,
+      "global_y": 0.0
+    },
+    {
+      "name": "g6204",
+      "type": "NAND2XL",
+      "predicted_x": 16.2,
+      "predicted_y": 1.0,
+      "global_x": 13.261106179454933,
+      "global_y": 0.0
+    },
+    {
+      "name": "g6206",
+      "type": "NAND2XL",
+      "predicted_x": 16.2,
+      "predicted_y": 1.0,
+      "global_x": 13.45031532852825,
+      "global_y": 0.0
+    },
+    {
+      "name": "g6207",
+      "type": "NAND2XL",
+      "predicted_x": 16.2,
+      "predicted_y": 1.0,
+      "global_x": 14.40512380375776,
+      "global_y": 0.0
+    },
+    {
+      "name": "g6263",
+      "type": "OAI21XL",
+      "predicted_x": 3.4000000000000004,
+      "predicted_y": 3.0,
+      "global_x": 1.1718806959324681,
+      "global_y": 2.387021677775906
+    },
+    {
+      "name": "g6216",
+      "type": "NAND2XL",
+      "predicted_x": 1.0,
+      "predicted_y": 1.0,
+      "global_x": 0.3248615353105564,
+      "global_y": 0.0
+    },
+    {
+      "name": "g6237",
+      "type": "OAI21XL",
+      "predicted_x": 3.0,
+      "predicted_y": 1.0,
+      "global_x": 2.1076740375653875,
+      "global_y": 0.41169845470662403
+    },
+    {
+      "name": "g6238",
+      "type": "OAI2BB1XL",
+      "predicted_x": 8.0,
+      "predicted_y": 1.0,
+      "global_x": 3.4519597540785885,
+      "global_y": 0.0
+    },
+    {
+      "name": "g6221",
+      "type": "AOI222XL",
+      "predicted_x": 11.0,
+      "predicted_y": 1.0,
+      "global_x": 4.955025998591414,
+      "global_y": 0.0
+    },
+    {
+      "name": "g6222",
+      "type": "AOI222XL",
+      "predicted_x": 13.0,
+      "predicted_y": 1.0,
+      "global_x": 6.197703420745694,
+      "global_y": 0.0
+    },
+    {
+      "name": "g6250",
+      "type": "OAI222XL",
+      "predicted_x": 16.0,
+      "predicted_y": 1.0,
+      "global_x": 7.774780306540708,
+      "global_y": 1.5080866707201983
+    },
+    {
+      "name": "g6223",
+      "type": "AOI222XL",
+      "predicted_x": 16.2,
+      "predicted_y": 1.0,
+      "global_x": 8.968138358364996,
+      "global_y": 0.0
+    },
+    {
+      "name": "g6224",
+      "type": "AOI222XL",
+      "predicted_x": 16.2,
+      "predicted_y": 1.0,
+      "global_x": 10.500859004888515,
+      "global_y": 0.0
+    },
+    {
+      "name": "g6225",
+      "type": "AOI222XL",
+      "predicted_x": 16.2,
+      "predicted_y": 1.0,
+      "global_x": 11.852029443607085,
+      "global_y": 0.0
+    },
+    {
+      "name": "g6272",
+      "type": "NAND2XL",
+      "predicted_x": 16.2,
+      "predicted_y": 1.0,
+      "global_x": 12.13121352330714,
+      "global_y": 0.0
+    },
+    {
+      "name": "g6219",
+      "type": "AOI222XL",
+      "predicted_x": 16.2,
+      "predicted_y": 1.0,
+      "global_x": 14.072156718838892,
+      "global_y": 0.0
+    },
+    {
+      "name": "g6220",
+      "type": "AOI222XL",
+      "predicted_x": 16.2,
+      "predicted_y": 1.0,
+      "global_x": 15.044045024858564,
+      "global_y": 0.0
+    },
+    {
+      "name": "rx_valid_reg",
+      "type": "DFFHQX1",
+      "predicted_x": 1.2000000000000002,
+      "predicted_y": 3.0,
+      "global_x": 0.7707852716825379,
+      "global_y": 3.3082948616371914
+    },
+    {
+      "name": "g6249",
+      "type": "OAI21XL",
+      "predicted_x": 2.2,
+      "predicted_y": 3.0,
+      "global_x": 1.1303005780196933,
+      "global_y": 2.2701944207099314
+    },
+    {
+      "name": "g6275",
+      "type": "INVXL",
+      "predicted_x": 4.0,
+      "predicted_y": 1.0,
+      "global_x": 2.248762117413808,
+      "global_y": 1.513544890629228
+    },
+    {
+      "name": "g6217",
+      "type": "NAND3XL",
+      "predicted_x": 5.0,
+      "predicted_y": 1.0,
+      "global_x": 2.6986431366751553,
+      "global_y": 0.9103405838730307
+    },
+    {
+      "name": "g6239",
+      "type": "AOI22XL",
+      "predicted_x": 9.0,
+      "predicted_y": 1.0,
+      "global_x": 4.512040474982234,
+      "global_y": 0.5837513794579475
+    },
+    {
+      "name": "g6244",
+      "type": "INVXL",
+      "predicted_x": 12.0,
+      "predicted_y": 1.0,
+      "global_x": 5.869351778375057,
+      "global_y": 1.0869634088747637
+    },
+    {
+      "name": "g6274",
+      "type": "NAND2XL",
+      "predicted_x": 9.4,
+      "predicted_y": 3.0,
+      "global_x": 7.5179325202634635,
+      "global_y": 2.7146363184452067
+    },
+    {
+      "name": "g6276",
+      "type": "OAI21XL",
+      "predicted_x": 10.4,
+      "predicted_y": 3.0,
+      "global_x": 8.96928034372547,
+      "global_y": 2.783121160924821
+    },
+    {
+      "name": "g6277",
+      "type": "NOR3XL",
+      "predicted_x": 11.4,
+      "predicted_y": 3.0,
+      "global_x": 10.263618891781695,
+      "global_y": 2.50613829228623
+    },
+    {
+      "name": "g6279",
+      "type": "NOR3XL",
+      "predicted_x": 13.4,
+      "predicted_y": 3.0,
+      "global_x": 11.734630214456619,
+      "global_y": 2.457987351231578
+    },
+    {
+      "name": "g6280",
+      "type": "OAI2BB2XL",
+      "predicted_x": 14.4,
+      "predicted_y": 3.0,
+      "global_x": 12.717658264464323,
+      "global_y": 2.839995655672228
+    },
+    {
+      "name": "g6286",
+      "type": "NOR2XL",
+      "predicted_x": 16.2,
+      "predicted_y": 3.0,
+      "global_x": 13.791336054629955,
+      "global_y": 2.070142287137625
+    },
+    {
+      "name": "g6287",
+      "type": "NOR2BXL",
+      "predicted_x": 16.2,
+      "predicted_y": 3.0,
+      "global_x": 15.005229275453457,
+      "global_y": 2.4359850346594722
+    },
+    {
+      "name": "g6288",
+      "type": "OAI21XL",
+      "predicted_x": 1.6,
+      "predicted_y": 5.0,
+      "global_x": 1.2965745279687149,
+      "global_y": 4.68153372671503
+    },
+    {
+      "name": "g6289",
+      "type": "NOR2BXL",
+      "predicted_x": 5.4,
+      "predicted_y": 3.0,
+      "global_x": 2.057083400513357,
+      "global_y": 3.678048370346326
+    },
+    {
+      "name": "g6290",
+      "type": "NOR2XL",
+      "predicted_x": 6.4,
+      "predicted_y": 3.0,
+      "global_x": 3.642983739235062,
+      "global_y": 3.5915562012477604
+    },
+    {
+      "name": "g6293",
+      "type": "NOR2XL",
+      "predicted_x": 7.4,
+      "predicted_y": 3.0,
+      "global_x": 4.02292011397581,
+      "global_y": 3.865740911931911
+    },
+    {
+      "name": "g6294",
+      "type": "NOR2XL",
+      "predicted_x": 8.4,
+      "predicted_y": 3.0,
+      "global_x": 5.087856231469983,
+      "global_y": 3.641987195406345
+    },
+    {
+      "name": "g6300",
+      "type": "OAI2BB2XL",
+      "predicted_x": 6.800000000000001,
+      "predicted_y": 5.0,
+      "global_x": 6.588250661177169,
+      "global_y": 4.472159623450612
+    },
+    {
+      "name": "g6245",
+      "type": "AND2X1",
+      "predicted_x": 15.0,
+      "predicted_y": 1.0,
+      "global_x": 6.990750551127719,
+      "global_y": 1.5442805549366323
+    },
+    {
+      "name": "g6262",
+      "type": "OAI21XL",
+      "predicted_x": 11.8,
+      "predicted_y": 5.0,
+      "global_x": 9.071487054083748,
+      "global_y": 4.47797679501883
+    },
+    {
+      "name": "g6301",
+      "type": "OAI2BB2XL",
+      "predicted_x": 12.4,
+      "predicted_y": 3.0,
+      "global_x": 11.073522548783908,
+      "global_y": 3.7031980024895192
+    },
+    {
+      "name": "g6264",
+      "type": "OAI32XL",
+      "predicted_x": 14.8,
+      "predicted_y": 5.0,
+      "global_x": 12.549159597751734,
+      "global_y": 4.5393800550379675
+    },
+    {
+      "name": "g6246",
+      "type": "NAND3BXL",
+      "predicted_x": 16.2,
+      "predicted_y": 1.0,
+      "global_x": 12.70434914005309,
+      "global_y": 1.222670641750242
+    },
+    {
+      "name": "g6247",
+      "type": "AND4X1",
+      "predicted_x": 15.4,
+      "predicted_y": 3.0,
+      "global_x": 13.315727554715398,
+      "global_y": 2.8376494927811318
+    },
+    {
+      "name": "g6307",
+      "type": "NAND3BXL",
+      "predicted_x": 16.2,
+      "predicted_y": 5.0,
+      "global_x": 15.040642574479241,
+      "global_y": 4.111019975157754
+    },
+    {
+      "name": "g6265",
+      "type": "MXI2XL",
+      "predicted_x": 0.4,
+      "predicted_y": 3.0,
+      "global_x": 0.4273209319664356,
+      "global_y": 3.8537725919447694
+    },
+    {
+      "name": "g6278",
+      "type": "NAND3BXL",
+      "predicted_x": 4.4,
+      "predicted_y": 3.0,
+      "global_x": 1.0113964942325455,
+      "global_y": 3.6402560983869288
+    },
+    {
+      "name": "g6291",
+      "type": "AOI211XL",
+      "predicted_x": 3.0,
+      "predicted_y": 5.0,
+      "global_x": 3.0838638870698003,
+      "global_y": 5.911276156883207
+    },
+    {
+      "name": "g6295",
+      "type": "NAND2XL",
+      "predicted_x": 4.0,
+      "predicted_y": 5.0,
+      "global_x": 3.6693018006535953,
+      "global_y": 5.136650641119688
+    },
+    {
+      "name": "g6297",
+      "type": "OAI21XL",
+      "predicted_x": 5.800000000000001,
+      "predicted_y": 5.0,
+      "global_x": 5.9262248040160825,
+      "global_y": 4.710623991875266
+    },
+    {
+      "name": "g6298",
+      "type": "OAI32XL",
+      "predicted_x": 8.8,
+      "predicted_y": 5.0,
+      "global_x": 7.484872239958556,
+      "global_y": 4.379923248400771
+    },
+    {
+      "name": "g6299",
+      "type": "AOI22XL",
+      "predicted_x": 7.800000000000001,
+      "predicted_y": 5.0,
+      "global_x": 7.287111422639108,
+      "global_y": 4.607336998624532
+    },
+    {
+      "name": "g6304",
+      "type": "NAND3BXL",
+      "predicted_x": 10.8,
+      "predicted_y": 5.0,
+      "global_x": 8.748589224302998,
+      "global_y": 5.289491082317185
+    },
+    {
+      "name": "g6306",
+      "type": "OAI21XL",
+      "predicted_x": 12.8,
+      "predicted_y": 5.0,
+      "global_x": 11.005051417963852,
+      "global_y": 5.347203457404118
+    },
+    {
+      "name": "g6310",
+      "type": "NOR2XL",
+      "predicted_x": 13.8,
+      "predicted_y": 5.0,
+      "global_x": 11.583015497683338,
+      "global_y": 4.12806650620327
+    },
+    {
+      "name": "g6311",
+      "type": "NOR2BXL",
+      "predicted_x": 15.8,
+      "predicted_y": 5.0,
+      "global_x": 13.36244513764393,
+      "global_y": 4.154577999962021
+    },
+    {
+      "name": "g6312",
+      "type": "NOR2XL",
+      "predicted_x": 16.2,
+      "predicted_y": 7.0,
+      "global_x": 14.927446948388088,
+      "global_y": 6.003670216017985
+    },
+    {
+      "name": "g6316",
+      "type": "OAI21XL",
+      "predicted_x": 16.2,
+      "predicted_y": 5.0,
+      "global_x": 14.801235039757726,
+      "global_y": 5.830862660288749
+    },
+    {
+      "name": "g6273",
+      "type": "NOR2BXL",
+      "predicted_x": 0.6000000000000001,
+      "predicted_y": 5.0,
+      "global_x": 0.6133891315963187,
+      "global_y": 4.954588204889757
+    },
+    {
+      "name": "g6303",
+      "type": "NAND2XL",
+      "predicted_x": 1.4000000000000001,
+      "predicted_y": 7.0,
+      "global_x": 1.597705098198384,
+      "global_y": 6.149958442754436
+    },
+    {
+      "name": "g6305",
+      "type": "OAI21XL",
+      "predicted_x": 3.4000000000000004,
+      "predicted_y": 7.0,
+      "global_x": 3.2859414286399304,
+      "global_y": 6.857792995696094
+    },
+    {
+      "name": "g6308",
+      "type": "AOI32XL",
+      "predicted_x": 4.4,
+      "predicted_y": 7.0,
+      "global_x": 3.7002020048757167,
+      "global_y": 6.475039364617948
+    },
+    {
+      "name": "g6323",
+      "type": "OAI2BB2XL",
+      "predicted_x": 6.4,
+      "predicted_y": 7.0,
+      "global_x": 4.9880329013644635,
+      "global_y": 6.439049686188529
+    },
+    {
+      "name": "g6324",
+      "type": "AOI22XL",
+      "predicted_x": 8.4,
+      "predicted_y": 7.0,
+      "global_x": 6.422755827312417,
+      "global_y": 6.408481989710731
+    },
+    {
+      "name": "g6285",
+      "type": "OAI21XL",
+      "predicted_x": 10.4,
+      "predicted_y": 7.0,
+      "global_x": 9.003806302496887,
+      "global_y": 6.523063472821672
+    },
+    {
+      "name": "g6292",
+      "type": "OAI21XL",
+      "predicted_x": 11.4,
+      "predicted_y": 7.0,
+      "global_x": 9.562818909896308,
+      "global_y": 6.020561511489199
+    },
+    {
+      "name": "g6296",
+      "type": "OAI211XL",
+      "predicted_x": 12.4,
+      "predicted_y": 7.0,
+      "global_x": 10.013735649156542,
+      "global_y": 6.26480240620552
+    },
+    {
+      "name": "g6313",
+      "type": "OAI21XL",
+      "predicted_x": 14.4,
+      "predicted_y": 7.0,
+      "global_x": 12.229034461414813,
+      "global_y": 6.378078833147651
+    },
+    {
+      "name": "g6315",
+      "type": "OAI21XL",
+      "predicted_x": 15.4,
+      "predicted_y": 7.0,
+      "global_x": 14.159529372362043,
+      "global_y": 6.561000696610701
+    },
+    {
+      "name": "g6317",
+      "type": "OR4X1",
+      "predicted_x": 16.2,
+      "predicted_y": 7.0,
+      "global_x": 15.372991655313667,
+      "global_y": 6.357697430616356
+    },
+    {
+      "name": "g6318",
+      "type": "AOI2BB1XL",
+      "predicted_x": 16.2,
+      "predicted_y": 7.0,
+      "global_x": 14.601697093418911,
+      "global_y": 6.8637374898173675
+    },
+    {
+      "name": "g6320",
+      "type": "OAI21XL",
+      "predicted_x": 1.6,
+      "predicted_y": 9.0,
+      "global_x": 1.230934365145619,
+      "global_y": 8.002843891487174
+    },
+    {
+      "name": "g6322",
+      "type": "AOI22XL",
+      "predicted_x": 2.4000000000000004,
+      "predicted_y": 7.0,
+      "global_x": 1.8107886950758385,
+      "global_y": 7.847690587143227
+    },
+    {
+      "name": "g6325",
+      "type": "OAI22XL",
+      "predicted_x": 3.6,
+      "predicted_y": 9.0,
+      "global_x": 2.9274824097910015,
+      "global_y": 8.045604191526342
+    },
+    {
+      "name": "g6328",
+      "type": "OR2X1",
+      "predicted_x": 5.4,
+      "predicted_y": 7.0,
+      "global_x": 4.01171670871125,
+      "global_y": 6.879450561970699
+    },
+    {
+      "name": "g6329",
+      "type": "INVXL",
+      "predicted_x": 7.4,
+      "predicted_y": 7.0,
+      "global_x": 5.393677168673337,
+      "global_y": 7.914316030646115
+    },
+    {
+      "name": "g6331",
+      "type": "NAND3XL",
+      "predicted_x": 7.4,
+      "predicted_y": 9.0,
+      "global_x": 6.287909980478567,
+      "global_y": 8.288665883520524
+    },
+    {
+      "name": "g6333",
+      "type": "NOR3XL",
+      "predicted_x": 9.4,
+      "predicted_y": 7.0,
+      "global_x": 7.46973407810248,
+      "global_y": 7.643147885065107
+    },
+    {
+      "name": "baud_tick_reg",
+      "type": "DFFTRX1",
+      "predicted_x": 9.8,
+      "predicted_y": 5.0,
+      "global_x": 7.911334724096127,
+      "global_y": 5.859469099747377
+    },
+    {
+      "name": "g6321",
+      "type": "NAND4XL",
+      "predicted_x": 10.4,
+      "predicted_y": 9.0,
+      "global_x": 10.534302721958968,
+      "global_y": 8.42603222720273
+    },
+    {
+      "name": "g6327",
+      "type": "NOR2BXL",
+      "predicted_x": 13.4,
+      "predicted_y": 7.0,
+      "global_x": 11.555325780606703,
+      "global_y": 7.591009789291335
+    },
+    {
+      "name": "g6330",
+      "type": "NAND2XL",
+      "predicted_x": 13.600000000000001,
+      "predicted_y": 9.0,
+      "global_x": 12.458333564828036,
+      "global_y": 8.32219970578237
+    },
+    {
+      "name": "g6314",
+      "type": "OAI221XL",
+      "predicted_x": 16.2,
+      "predicted_y": 9.0,
+      "global_x": 15.199478438819233,
+      "global_y": 8.340291261167188
+    },
+    {
+      "name": "g6332",
+      "type": "OAI2BB1XL",
+      "predicted_x": 16.2,
+      "predicted_y": 9.0,
+      "global_x": 14.947991911429845,
+      "global_y": 8.130808933732673
+    },
+    {
+      "name": "g6336",
+      "type": "OR2X1",
+      "predicted_x": 0.6000000000000001,
+      "predicted_y": 9.0,
+      "global_x": 0.7213312332675841,
+      "global_y": 8.400398279655803
+    },
+    {
+      "name": "g6338",
+      "type": "INVXL",
+      "predicted_x": 2.6,
+      "predicted_y": 9.0,
+      "global_x": 2.2537497335786627,
+      "global_y": 9.148510342852061
+    },
+    {
+      "name": "g6342",
+      "type": "OAI21XL",
+      "predicted_x": 4.4,
+      "predicted_y": 9.0,
+      "global_x": 3.5018236731739525,
+      "global_y": 9.559917914495168
+    },
+    {
+      "name": "g6353",
+      "type": "AOI21XL",
+      "predicted_x": 5.4,
+      "predicted_y": 9.0,
+      "global_x": 3.8940006422845284,
+      "global_y": 9.62743804378433
+    },
+    {
+      "name": "g6319",
+      "type": "OAI31XL",
+      "predicted_x": 6.4,
+      "predicted_y": 9.0,
+      "global_x": 4.963518412880163,
+      "global_y": 9.089356284702848
+    },
+    {
+      "name": "g6334",
+      "type": "AOI2BB1XL",
+      "predicted_x": 8.4,
+      "predicted_y": 11.0,
+      "global_x": 7.072424051295291,
+      "global_y": 11.17400648705893
+    },
+    {
+      "name": "g6337",
+      "type": "NOR2XL",
+      "predicted_x": 8.4,
+      "predicted_y": 9.0,
+      "global_x": 7.621645064662677,
+      "global_y": 9.32098441143272
+    },
+    {
+      "name": "g6339",
+      "type": "NOR2XL",
+      "predicted_x": 9.4,
+      "predicted_y": 9.0,
+      "global_x": 8.843503290584005,
+      "global_y": 9.781749060469608
+    },
+    {
+      "name": "g6340",
+      "type": "OR2X1",
+      "predicted_x": 11.4,
+      "predicted_y": 9.0,
+      "global_x": 10.716020407891397,
+      "global_y": 9.995537338708008
+    },
+    {
+      "name": "g6341",
+      "type": "OAI21XL",
+      "predicted_x": 12.4,
+      "predicted_y": 9.0,
+      "global_x": 11.28478690225906,
+      "global_y": 9.330419992018328
+    },
+    {
+      "name": "g6343",
+      "type": "OAI21XL",
+      "predicted_x": 14.600000000000001,
+      "predicted_y": 9.0,
+      "global_x": 12.976963376015522,
+      "global_y": 9.631015807525166
+    },
+    {
+      "name": "g6348",
+      "type": "INVXL",
+      "predicted_x": 15.600000000000001,
+      "predicted_y": 9.0,
+      "global_x": 14.219911603446107,
+      "global_y": 9.643267175341792
+    },
+    {
+      "name": "g6351",
+      "type": "OAI2BB1XL",
+      "predicted_x": 16.2,
+      "predicted_y": 9.0,
+      "global_x": 15.467482618956831,
+      "global_y": 9.628116770932538
+    },
+    {
+      "name": "g6345",
+      "type": "NAND2BXL",
+      "predicted_x": 0.6000000000000001,
+      "predicted_y": 11.0,
+      "global_x": 0.7975935249303319,
+      "global_y": 10.151662212072189
+    },
+    {
+      "name": "g6349",
+      "type": "NOR2XL",
+      "predicted_x": 3.6,
+      "predicted_y": 11.0,
+      "global_x": 2.177484503703152,
+      "global_y": 10.517460886402594
+    },
+    {
+      "name": "g6350",
+      "type": "OAI2BB1XL",
+      "predicted_x": 4.4,
+      "predicted_y": 11.0,
+      "global_x": 3.0010621132013124,
+      "global_y": 10.54356298918306
+    },
+    {
+      "name": "g6359",
+      "type": "INVXL",
+      "predicted_x": 5.4,
+      "predicted_y": 11.0,
+      "global_x": 4.287136937862159,
+      "global_y": 10.776925640847239
+    },
+    {
+      "name": "g6344",
+      "type": "NAND2BXL",
+      "predicted_x": 6.4,
+      "predicted_y": 11.0,
+      "global_x": 5.332530512568818,
+      "global_y": 10.81486776165754
+    },
+    {
+      "name": "g6352",
+      "type": "AOI2BB1XL",
+      "predicted_x": 7.4,
+      "predicted_y": 11.0,
+      "global_x": 6.6891214641326275,
+      "global_y": 11.360942438858093
+    },
+    {
+      "name": "g6354",
+      "type": "OR4X1",
+      "predicted_x": 9.4,
+      "predicted_y": 11.0,
+      "global_x": 7.6654484302326376,
+      "global_y": 11.585734323893181
+    },
+    {
+      "name": "g6355",
+      "type": "MX2XL",
+      "predicted_x": 14.8,
+      "predicted_y": 13.0,
+      "global_x": 9.497671877115234,
+      "global_y": 12.003874320380119
+    },
+    {
+      "name": "g6358",
+      "type": "NAND2XL",
+      "predicted_x": 11.4,
+      "predicted_y": 11.0,
+      "global_x": 10.390795513602507,
+      "global_y": 11.891965631479072
+    },
+    {
+      "name": "g6360",
+      "type": "NOR2BXL",
+      "predicted_x": 12.4,
+      "predicted_y": 11.0,
+      "global_x": 11.576561223647717,
+      "global_y": 11.394169707588352
+    },
+    {
+      "name": "g6374",
+      "type": "INVXL",
+      "predicted_x": 13.600000000000001,
+      "predicted_y": 11.0,
+      "global_x": 12.840827164076677,
+      "global_y": 11.291203958933018
+    },
+    {
+      "name": "g6346",
+      "type": "NAND2XL",
+      "predicted_x": 16.2,
+      "predicted_y": 13.0,
+      "global_x": 15.501585475090405,
+      "global_y": 12.028050914396697
+    },
+    {
+      "name": "g6347",
+      "type": "NOR2BXL",
+      "predicted_x": 16.0,
+      "predicted_y": 11.0,
+      "global_x": 16.431676725154983,
+      "global_y": 11.439232097327174
+    },
+    {
+      "name": "g6356",
+      "type": "OR2X1",
+      "predicted_x": 1.6,
+      "predicted_y": 11.0,
+      "global_x": 1.4668919483814775,
+      "global_y": 11.639065823750778
+    },
+    {
+      "name": "g6357",
+      "type": "NOR2XL",
+      "predicted_x": 2.6,
+      "predicted_y": 11.0,
+      "global_x": 1.8436511357213836,
+      "global_y": 11.568722071996566
+    },
+    {
+      "name": "g6361",
+      "type": "OR2X1",
+      "predicted_x": 3.6,
+      "predicted_y": 13.0,
+      "global_x": 3.520527356217688,
+      "global_y": 12.729896900025642
+    },
+    {
+      "name": "g6364",
+      "type": "AOI21XL",
+      "predicted_x": 5.6000000000000005,
+      "predicted_y": 13.0,
+      "global_x": 4.207248401947988,
+      "global_y": 12.383889047461208
+    },
+    {
+      "name": "g6375",
+      "type": "NAND2XL",
+      "predicted_x": 8.8,
+      "predicted_y": 13.0,
+      "global_x": 5.299021665115457,
+      "global_y": 12.247632368799087
+    },
+    {
+      "name": "g6378",
+      "type": "OAI21XL",
+      "predicted_x": 12.8,
+      "predicted_y": 13.0,
+      "global_x": 6.73461577114758,
+      "global_y": 12.643292099437836
+    },
+    {
+      "name": "g6365",
+      "type": "AOI2BB1XL",
+      "predicted_x": 13.8,
+      "predicted_y": 13.0,
+      "global_x": 8.237086537873813,
+      "global_y": 13.865474997869452
+    },
+    {
+      "name": "g6366",
+      "type": "MXI2XL",
+      "predicted_x": 10.4,
+      "predicted_y": 11.0,
+      "global_x": 8.788857430217181,
+      "global_y": 10.171972118092922
+    },
+    {
+      "name": "g6369",
+      "type": "NAND2XL",
+      "predicted_x": 15.8,
+      "predicted_y": 13.0,
+      "global_x": 10.338537440807588,
+      "global_y": 13.042110408796596
+    },
+    {
+      "name": "g6373",
+      "type": "AND2X1",
+      "predicted_x": 16.2,
+      "predicted_y": 15.0,
+      "global_x": 12.556353321999325,
+      "global_y": 14.321053701379997
+    },
+    {
+      "name": "g6376",
+      "type": "INVXL",
+      "predicted_x": 16.2,
+      "predicted_y": 13.0,
+      "global_x": 12.781973783033523,
+      "global_y": 12.853109872829437
+    },
+    {
+      "name": "g6362",
+      "type": "NOR3BXL",
+      "predicted_x": 16.2,
+      "predicted_y": 13.0,
+      "global_x": 14.29251190260215,
+      "global_y": 12.469199075624875
+    },
+    {
+      "name": "g6363",
+      "type": "NOR4BXL",
+      "predicted_x": 16.2,
+      "predicted_y": 13.0,
+      "global_x": 16.431676725154983,
+      "global_y": 13.055254993293111
+    },
+    {
+      "name": "g6368",
+      "type": "OR2X1",
+      "predicted_x": 0.8,
+      "predicted_y": 13.0,
+      "global_x": 0.8519749461485024,
+      "global_y": 12.639270665569816
+    },
+    {
+      "name": "g6370",
+      "type": "NAND2BXL",
+      "predicted_x": 2.6,
+      "predicted_y": 13.0,
+      "global_x": 2.682650444607231,
+      "global_y": 13.749715291440628
+    },
+    {
+      "name": "g6371",
+      "type": "NAND2XL",
+      "predicted_x": 5.4,
+      "predicted_y": 15.0,
+      "global_x": 4.08415883408023,
+      "global_y": 14.398321841211878
+    },
+    {
+      "name": "g6372",
+      "type": "NOR2XL",
+      "predicted_x": 6.800000000000001,
+      "predicted_y": 13.0,
+      "global_x": 4.47272033238618,
+      "global_y": 13.428203318679666
+    },
+    {
+      "name": "g6377",
+      "type": "NAND3XL",
+      "predicted_x": 9.8,
+      "predicted_y": 13.0,
+      "global_x": 5.6841503515102,
+      "global_y": 13.63978010211193
+    },
+    {
+      "name": "g6389",
+      "type": "INVXL",
+      "predicted_x": 11.8,
+      "predicted_y": 13.0,
+      "global_x": 6.55674028810464,
+      "global_y": 13.570603800228804
+    },
+    {
+      "name": "g6399",
+      "type": "INVXL",
+      "predicted_x": 10.8,
+      "predicted_y": 13.0,
+      "global_x": 6.463514225055862,
+      "global_y": 12.345303458055854
+    },
+    {
+      "name": "g6402",
+      "type": "INVXL",
+      "predicted_x": 13.4,
+      "predicted_y": 15.0,
+      "global_x": 9.976797417706864,
+      "global_y": 15.710608951631796
+    },
+    {
+      "name": "g6379",
+      "type": "NOR3XL",
+      "predicted_x": 16.2,
+      "predicted_y": 13.0,
+      "global_x": 11.244810558812649,
+      "global_y": 13.501926994515353
+    },
+    {
+      "name": "g6380",
+      "type": "OR3XL",
+      "predicted_x": 16.2,
+      "predicted_y": 13.0,
+      "global_x": 13.186110257492953,
+      "global_y": 13.68254676827875
+    },
+    {
+      "name": "g6381",
+      "type": "INVXL",
+      "predicted_x": 16.2,
+      "predicted_y": 15.0,
+      "global_x": 13.374412478226818,
+      "global_y": 15.458147917009413
+    },
+    {
+      "name": "g6387",
+      "type": "NAND2XL",
+      "predicted_x": 16.2,
+      "predicted_y": 13.0,
+      "global_x": 13.714807365010047,
+      "global_y": 13.22506410289791
+    },
+    {
+      "name": "g6390",
+      "type": "NOR2XL",
+      "predicted_x": 16.2,
+      "predicted_y": 13.0,
+      "global_x": 15.107024636024944,
+      "global_y": 13.714545864074157
+    },
+    {
+      "name": "g6391",
+      "type": "OR2X1",
+      "predicted_x": 1.8,
+      "predicted_y": 13.0,
+      "global_x": 1.5909403530141624,
+      "global_y": 13.361959353133814
+    },
+    {
+      "name": "g6395",
+      "type": "INVXL",
+      "predicted_x": 3.4000000000000004,
+      "predicted_y": 15.0,
+      "global_x": 3.269839532997655,
+      "global_y": 15.72086527298248
+    },
+    {
+      "name": "g6398",
+      "type": "NOR2XL",
+      "predicted_x": 6.4,
+      "predicted_y": 15.0,
+      "global_x": 4.714797723104825,
+      "global_y": 15.505863512873043
+    },
+    {
+      "name": "g6400",
+      "type": "NOR2XL",
+      "predicted_x": 4.6000000000000005,
+      "predicted_y": 13.0,
+      "global_x": 4.149584017669515,
+      "global_y": 13.99837721696071
+    },
+    {
+      "name": "g6403",
+      "type": "NOR2XL",
+      "predicted_x": 8.4,
+      "predicted_y": 15.0,
+      "global_x": 5.953601601433479,
+      "global_y": 14.993563591380884
+    },
+    {
+      "name": "g6401",
+      "type": "OR2X1",
+      "predicted_x": 7.800000000000001,
+      "predicted_y": 13.0,
+      "global_x": 4.933965379209786,
+      "global_y": 12.802325803437189
+    },
+    {
+      "name": "g6386",
+      "type": "AND2X1",
+      "predicted_x": 11.4,
+      "predicted_y": 15.0,
+      "global_x": 8.74210752694826,
+      "global_y": 15.448063970807482
+    },
+    {
+      "name": "g6397",
+      "type": "NOR2XL",
+      "predicted_x": 12.4,
+      "predicted_y": 15.0,
+      "global_x": 9.014382889038716,
+      "global_y": 15.606323945445963
+    },
+    {
+      "name": "g6392",
+      "type": "AND2X1",
+      "predicted_x": 14.4,
+      "predicted_y": 15.0,
+      "global_x": 10.194736411174848,
+      "global_y": 14.071111694499589
+    },
+    {
+      "name": "g6394",
+      "type": "NAND2BXL",
+      "predicted_x": 15.4,
+      "predicted_y": 15.0,
+      "global_x": 11.612257570502985,
+      "global_y": 14.674453117851384
+    },
+    {
+      "name": "g6393",
+      "type": "AND2X1",
+      "predicted_x": 16.2,
+      "predicted_y": 13.0,
+      "global_x": 12.509687647496268,
+      "global_y": 13.503806471279292
+    },
+    {
+      "name": "g6383",
+      "type": "NOR2XL",
+      "predicted_x": 16.2,
+      "predicted_y": 15.0,
+      "global_x": 15.340319708795578,
+      "global_y": 14.771756930512801
+    },
+    {
+      "name": "g6384",
+      "type": "NAND2XL",
+      "predicted_x": 16.2,
+      "predicted_y": 15.0,
+      "global_x": 15.723159037745972,
+      "global_y": 15.380299969859008
+    },
+    {
+      "name": "g6385",
+      "type": "OR2X1",
+      "predicted_x": 1.0,
+      "predicted_y": 15.0,
+      "global_x": 1.0625811399647889,
+      "global_y": 14.738284810718975
+    },
+    {
+      "name": "g6388",
+      "type": "NAND2XL",
+      "predicted_x": 2.4000000000000004,
+      "predicted_y": 15.0,
+      "global_x": 2.520100679335059,
+      "global_y": 15.161346313583604
+    },
+    {
+      "name": "g6382",
+      "type": "NAND2XL",
+      "predicted_x": 4.4,
+      "predicted_y": 15.0,
+      "global_x": 3.663637416149043,
+      "global_y": 15.980336883256905
+    },
+    {
+      "name": "g6396",
+      "type": "NAND2XL",
+      "predicted_x": 7.4,
+      "predicted_y": 15.0,
+      "global_x": 4.727775319175989,
+      "global_y": 15.69347035658638
+    },
+    {
+      "name": "g6408",
+      "type": "INVXL",
+      "predicted_x": 10.4,
+      "predicted_y": 15.0,
+      "global_x": 7.187926174405243,
+      "global_y": 16.431676725154983
+    },
+    {
+      "name": "g6406",
+      "type": "INVXL",
+      "predicted_x": 9.4,
+      "predicted_y": 15.0,
+      "global_x": 6.693831908893524,
+      "global_y": 15.178284130756897
+    }
+  ]
+}

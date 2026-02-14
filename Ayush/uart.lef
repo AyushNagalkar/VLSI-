@@ -1,0 +1,85 @@
+VERSION 5.8 ;
+BUSBITCHARS "[]" ;
+DIVIDERCHAR "/" ;
+
+MACRO uart
+  CLASS BLOCK ;
+  ORIGIN 0 0 ;
+  SIZE 200 BY 200 ;
+  SYMMETRY X Y ;
+
+  PIN clk
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER metal1 ;
+      RECT 0 0 2 2 ;
+    END
+  END clk
+
+  PIN rst_n
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER metal1 ;
+      RECT 5 0 7 2 ;
+    END
+  END rst_n
+
+  PIN tx_valid
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER metal1 ;
+      RECT 10 0 12 2 ;
+    END
+  END tx_valid
+
+  PIN rx_ready
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER metal1 ;
+      RECT 15 0 17 2 ;
+    END
+  END rx_ready
+
+  PIN rx
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER metal1 ;
+      RECT 20 0 22 2 ;
+    END
+  END rx
+
+  PIN tx
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER metal1 ;
+      RECT 0 198 2 200 ;
+    END
+  END tx
+
+  PIN tx_ready
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER metal1 ;
+      RECT 5 198 7 200 ;
+    END
+  END tx_ready
+
+  PIN rx_valid
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER metal1 ;
+      RECT 10 198 12 200 ;
+    END
+  END rx_valid
+
+END uart
+
+END LIBRARY
