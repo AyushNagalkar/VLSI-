@@ -1,0 +1,7488 @@
+VERSION 5.8 ;
+BUSBITCHARS "[]" ;
+DIVIDERCHAR "/" ;
+
+UNITS
+  DATABASE MICRONS 2000 ;
+END UNITS
+
+LAYER li1
+  TYPE ROUTING ;
+  DIRECTION VERTICAL ;
+  PITCH 0.34 ;
+  WIDTH 0.17 ;
+END li1
+
+LAYER met1
+  TYPE ROUTING ;
+  DIRECTION HORIZONTAL ;
+  PITCH 0.68 ;
+  WIDTH 0.34 ;
+END met1
+
+LAYER met2
+  TYPE ROUTING ;
+  DIRECTION VERTICAL ;
+  PITCH 1.02 ;
+  WIDTH 0.51 ;
+END met2
+
+LAYER met3
+  TYPE ROUTING ;
+  DIRECTION HORIZONTAL ;
+  PITCH 1.36 ;
+  WIDTH 0.68 ;
+END met3
+
+LAYER met4
+  TYPE ROUTING ;
+  DIRECTION VERTICAL ;
+  PITCH 1.7 ;
+  WIDTH 0.85 ;
+END met4
+
+LAYER met5
+  TYPE ROUTING ;
+  DIRECTION HORIZONTAL ;
+  PITCH 2.04 ;
+  WIDTH 1.02 ;
+END met5
+
+SITE CoreSite
+  CLASS CORE ;
+  SIZE 0.46 BY 2.72 ;
+END CoreSite
+
+MACRO AN2_x0_0
+  CLASS CORE ;
+  SIZE 0.84 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN Z
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END Z
+
+END AN2_x0_0
+
+MACRO AN2_x1_0
+  CLASS CORE ;
+  SIZE 0.84 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN Z
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END Z
+
+END AN2_x1_0
+
+MACRO AN3_x0_0
+  CLASS CORE ;
+  SIZE 1.05 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN A3
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A3
+
+  PIN Z
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END Z
+
+END AN3_x0_0
+
+MACRO AN3_x1_0
+  CLASS CORE ;
+  SIZE 1.26 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN A3
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A3
+
+  PIN Z
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END Z
+
+END AN3_x1_0
+
+MACRO AN4_x0_0
+  CLASS CORE ;
+  SIZE 1.26 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN A3
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A3
+
+  PIN A4
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A4
+
+  PIN Z
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END Z
+
+END AN4_x0_0
+
+MACRO AO211_x1_0
+  CLASS CORE ;
+  SIZE 1.26 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN B
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B
+
+  PIN C
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END C
+
+  PIN Z
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END Z
+
+END AO211_x1_0
+
+MACRO AO21_x1_0
+  CLASS CORE ;
+  SIZE 1.05 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN B
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B
+
+  PIN Z
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END Z
+
+END AO21_x1_0
+
+MACRO AO21_x2_0
+  CLASS CORE ;
+  SIZE 1.26 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN B
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B
+
+  PIN Z
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END Z
+
+END AO21_x2_0
+
+MACRO AO221_x1_0
+  CLASS CORE ;
+  SIZE 1.68 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN B1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B1
+
+  PIN B2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B2
+
+  PIN C
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END C
+
+  PIN Z
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END Z
+
+END AO221_x1_0
+
+MACRO AO222_x1_0
+  CLASS CORE ;
+  SIZE 1.89 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN B1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B1
+
+  PIN B2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B2
+
+  PIN C1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END C1
+
+  PIN C2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END C2
+
+  PIN Z
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END Z
+
+END AO222_x1_0
+
+MACRO AO222_x2_0
+  CLASS CORE ;
+  SIZE 3.78 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN B1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B1
+
+  PIN B2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B2
+
+  PIN C1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END C1
+
+  PIN C2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END C2
+
+  PIN Z
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END Z
+
+END AO222_x2_0
+
+MACRO AO222_x4_0
+  CLASS CORE ;
+  SIZE 3.78 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN B1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B1
+
+  PIN B2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B2
+
+  PIN C1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END C1
+
+  PIN C2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END C2
+
+  PIN Z
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END Z
+
+END AO222_x4_0
+
+MACRO AO22_x0_0
+  CLASS CORE ;
+  SIZE 1.47 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN B1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B1
+
+  PIN B2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B2
+
+  PIN Z
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END Z
+
+END AO22_x0_0
+
+MACRO AO22_x1_0
+  CLASS CORE ;
+  SIZE 1.47 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN B1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B1
+
+  PIN B2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B2
+
+  PIN Z
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END Z
+
+END AO22_x1_0
+
+MACRO AO22_x2_0
+  CLASS CORE ;
+  SIZE 1.47 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN B1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B1
+
+  PIN B2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B2
+
+  PIN Z
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END Z
+
+END AO22_x2_0
+
+MACRO AO22_x4_0
+  CLASS CORE ;
+  SIZE 2.94 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN B1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B1
+
+  PIN B2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B2
+
+  PIN Z
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END Z
+
+END AO22_x4_0
+
+MACRO AO31_x1_0
+  CLASS CORE ;
+  SIZE 1.26 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN A3
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A3
+
+  PIN B
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B
+
+  PIN Z
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END Z
+
+END AO31_x1_0
+
+MACRO AO32_x0_0
+  CLASS CORE ;
+  SIZE 1.68 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN A3
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A3
+
+  PIN B1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B1
+
+  PIN B2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B2
+
+  PIN Z
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END Z
+
+END AO32_x0_0
+
+MACRO AO33_x0_0
+  CLASS CORE ;
+  SIZE 1.68 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN A3
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A3
+
+  PIN B1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B1
+
+  PIN B2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B2
+
+  PIN B3
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B3
+
+  PIN Z
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END Z
+
+END AO33_x0_0
+
+MACRO AOI211_0100_x1_0
+  CLASS CORE ;
+  SIZE 2.94 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN B
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B
+
+  PIN C
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END C
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END AOI211_0100_x1_0
+
+MACRO AOI211_x0_0
+  CLASS CORE ;
+  SIZE 1.05 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN B
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B
+
+  PIN C
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END C
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END AOI211_x0_0
+
+MACRO AOI211_x1_0
+  CLASS CORE ;
+  SIZE 4.2 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN B
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B
+
+  PIN C
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END C
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END AOI211_x1_0
+
+MACRO AOI211_x2_0
+  CLASS CORE ;
+  SIZE 5.67 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN B
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B
+
+  PIN C
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END C
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END AOI211_x2_0
+
+MACRO AOI211_x4_0
+  CLASS CORE ;
+  SIZE 9.24 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN B
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B
+
+  PIN C
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END C
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END AOI211_x4_0
+
+MACRO AOI21_0100_x1_0
+  CLASS CORE ;
+  SIZE 3.78 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN B
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END AOI21_0100_x1_0
+
+MACRO AOI21_0100_x4_0
+  CLASS CORE ;
+  SIZE 4.62 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN B
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END AOI21_0100_x4_0
+
+MACRO AOI21_x1_0
+  CLASS CORE ;
+  SIZE 1.05 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN B
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END AOI21_x1_0
+
+MACRO AOI21_x2_0
+  CLASS CORE ;
+  SIZE 3.78 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN B
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END AOI21_x2_0
+
+MACRO AOI21_x4_0
+  CLASS CORE ;
+  SIZE 5.46 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN B
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END AOI21_x4_0
+
+MACRO AOI221_x1_0
+  CLASS CORE ;
+  SIZE 1.47 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN B1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B1
+
+  PIN B2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B2
+
+  PIN C
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END C
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END AOI221_x1_0
+
+MACRO AOI222_x1_0
+  CLASS CORE ;
+  SIZE 1.68 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN B1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B1
+
+  PIN B2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B2
+
+  PIN C1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END C1
+
+  PIN C2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END C2
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END AOI222_x1_0
+
+MACRO AOI222_x2_0
+  CLASS CORE ;
+  SIZE 2.835 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN B1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B1
+
+  PIN B2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B2
+
+  PIN C1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END C1
+
+  PIN C2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END C2
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END AOI222_x2_0
+
+MACRO AOI22_1001_x1_0
+  CLASS CORE ;
+  SIZE 1.05 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN B1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B1
+
+  PIN B2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B2
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END AOI22_1001_x1_0
+
+MACRO AOI22_x1_0
+  CLASS CORE ;
+  SIZE 1.05 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN B1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B1
+
+  PIN B2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B2
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END AOI22_x1_0
+
+MACRO AOI31_x1_0
+  CLASS CORE ;
+  SIZE 1.26 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN A3
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A3
+
+  PIN B
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END AOI31_x1_0
+
+MACRO AOI32_x1_0
+  CLASS CORE ;
+  SIZE 1.47 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN A3
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A3
+
+  PIN B1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B1
+
+  PIN B2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B2
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END AOI32_x1_0
+
+MACRO AOI33_x1_0
+  CLASS CORE ;
+  SIZE 1.68 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN A3
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A3
+
+  PIN B1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B1
+
+  PIN B2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B2
+
+  PIN B3
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B3
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END AOI33_x1_0
+
+MACRO BUFF_x12_0
+  CLASS CORE ;
+  SIZE 1.0 BY 2.72 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN I
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END I
+
+  PIN Z
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END Z
+
+END BUFF_x12_0
+
+MACRO BUFF_x2_0
+  CLASS CORE ;
+  SIZE 1.0 BY 2.72 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN I
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END I
+
+  PIN Z
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END Z
+
+END BUFF_x2_0
+
+MACRO BUFF_x3_0
+  CLASS CORE ;
+  SIZE 1.0 BY 2.72 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN I
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END I
+
+  PIN Z
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END Z
+
+END BUFF_x3_0
+
+MACRO BUFF_x4_0
+  CLASS CORE ;
+  SIZE 1.0 BY 2.72 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN I
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END I
+
+  PIN Z
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END Z
+
+END BUFF_x4_0
+
+MACRO BUFF_x6_0
+  CLASS CORE ;
+  SIZE 1.0 BY 2.72 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN I
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END I
+
+  PIN Z
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END Z
+
+END BUFF_x6_0
+
+MACRO CKND2_x3_0
+  CLASS CORE ;
+  SIZE 2.31 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END CKND2_x3_0
+
+MACRO CKXOR2_x1_0
+  CLASS CORE ;
+  SIZE 1.68 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN Z
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END Z
+
+END CKXOR2_x1_0
+
+MACRO DEL025_x1_0
+  CLASS CORE ;
+  SIZE 1.0 BY 2.72 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN I
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END I
+
+  PIN Z
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END Z
+
+END DEL025_x1_0
+
+MACRO DFCNQ_x1_0
+  CLASS CORE ;
+  SIZE 3.99 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN CDN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END CDN
+
+  PIN CP
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END CP
+
+  PIN D
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END D
+
+  PIN Q
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END Q
+
+END DFCNQ_x1_0
+
+MACRO DFCNQ_x2_0
+  CLASS CORE ;
+  SIZE 4.2 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN CDN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END CDN
+
+  PIN CP
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END CP
+
+  PIN D
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END D
+
+  PIN Q
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END Q
+
+END DFCNQ_x2_0
+
+MACRO DFCN_x1_0
+  CLASS CORE ;
+  SIZE 4.2 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN CDN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END CDN
+
+  PIN CP
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END CP
+
+  PIN D
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END D
+
+  PIN Q
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END Q
+
+  PIN QN
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END QN
+
+END DFCN_x1_0
+
+MACRO DFQ_x1_0
+  CLASS CORE ;
+  SIZE 3.57 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN CP
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END CP
+
+  PIN D
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END D
+
+  PIN Q
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END Q
+
+END DFQ_x1_0
+
+MACRO DFSNQ_x1_0
+  CLASS CORE ;
+  SIZE 4.2 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN CP
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END CP
+
+  PIN D
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END D
+
+  PIN Q
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END Q
+
+  PIN SDN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END SDN
+
+END DFSNQ_x1_0
+
+MACRO FA1_0101_x1_0
+  CLASS CORE ;
+  SIZE 6.09 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A
+
+  PIN B
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B
+
+  PIN CI
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END CI
+
+  PIN CO
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END CO
+
+  PIN S
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END S
+
+END FA1_0101_x1_0
+
+MACRO FA1_x1_0
+  CLASS CORE ;
+  SIZE 3.57 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A
+
+  PIN B
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B
+
+  PIN CI
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END CI
+
+  PIN CO
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END CO
+
+  PIN S
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END S
+
+END FA1_x1_0
+
+MACRO FA1_x2_0
+  CLASS CORE ;
+  SIZE 3.57 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A
+
+  PIN B
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B
+
+  PIN CI
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END CI
+
+  PIN CO
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END CO
+
+  PIN S
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END S
+
+END FA1_x2_0
+
+MACRO HA1_x1_0
+  CLASS CORE ;
+  SIZE 2.73 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A
+
+  PIN B
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B
+
+  PIN CO
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END CO
+
+  PIN S
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END S
+
+END HA1_x1_0
+
+MACRO IND2_0011_x4_0
+  CLASS CORE ;
+  SIZE 5.25 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN B1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B1
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END IND2_0011_x4_0
+
+MACRO IND2_0011_x8_0
+  CLASS CORE ;
+  SIZE 1.0 BY 2.72 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN B1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B1
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END IND2_0011_x8_0
+
+MACRO IND2_x1_0
+  CLASS CORE ;
+  SIZE 0.84 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN B1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B1
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END IND2_x1_0
+
+MACRO IND2_x2_0
+  CLASS CORE ;
+  SIZE 2.1 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN B1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B1
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END IND2_x2_0
+
+MACRO IND3_x1_0
+  CLASS CORE ;
+  SIZE 1.05 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN B1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B1
+
+  PIN B2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B2
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END IND3_x1_0
+
+MACRO IND4_x0_0
+  CLASS CORE ;
+  SIZE 1.26 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN B1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B1
+
+  PIN B2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B2
+
+  PIN B3
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B3
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END IND4_x0_0
+
+MACRO INR2_0011_x1_0
+  CLASS CORE ;
+  SIZE 0.84 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN B1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B1
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END INR2_0011_x1_0
+
+MACRO INR2_0011_x2_0
+  CLASS CORE ;
+  SIZE 7.56 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN B1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B1
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END INR2_0011_x2_0
+
+MACRO INR2_0011_x4_0
+  CLASS CORE ;
+  SIZE 2.94 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN B1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B1
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END INR2_0011_x4_0
+
+MACRO INR2_x1_0
+  CLASS CORE ;
+  SIZE 0.84 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN B1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B1
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END INR2_x1_0
+
+MACRO INR2_x2_0
+  CLASS CORE ;
+  SIZE 2.1 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN B1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B1
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END INR2_x2_0
+
+MACRO INR3_x0_0
+  CLASS CORE ;
+  SIZE 1.05 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN B1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B1
+
+  PIN B2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B2
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END INR3_x0_0
+
+MACRO INR3_x1_0
+  CLASS CORE ;
+  SIZE 1.05 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN B1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B1
+
+  PIN B2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B2
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END INR3_x1_0
+
+MACRO INR4_x0_0
+  CLASS CORE ;
+  SIZE 1.26 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN B1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B1
+
+  PIN B2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B2
+
+  PIN B3
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B3
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END INR4_x0_0
+
+MACRO INR4_x1_0
+  CLASS CORE ;
+  SIZE 1.785 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN B1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B1
+
+  PIN B2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B2
+
+  PIN B3
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B3
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END INR4_x1_0
+
+MACRO INV_x16_0
+  CLASS CORE ;
+  SIZE 1.0 BY 2.72 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN I
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END I
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END INV_x16_0
+
+MACRO INV_x1_0
+  CLASS CORE ;
+  SIZE 0.42 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN I
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END I
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END INV_x1_0
+
+MACRO INV_x2_0
+  CLASS CORE ;
+  SIZE 0.525 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN I
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END I
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END INV_x2_0
+
+MACRO INV_x3_0
+  CLASS CORE ;
+  SIZE 1.0 BY 2.72 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN I
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END I
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END INV_x3_0
+
+MACRO INV_x8_0
+  CLASS CORE ;
+  SIZE 1.0 BY 2.72 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN I
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END I
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END INV_x8_0
+
+MACRO LNQ_x1_0
+  CLASS CORE ;
+  SIZE 2.1 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN D
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END D
+
+  PIN EN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END EN
+
+  PIN Q
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END Q
+
+END LNQ_x1_0
+
+MACRO MAOI222_x0_0
+  CLASS CORE ;
+  SIZE 1.47 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A
+
+  PIN B
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B
+
+  PIN C
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END C
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END MAOI222_x0_0
+
+MACRO MAOI22_x1_0
+  CLASS CORE ;
+  SIZE 1.26 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN B1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B1
+
+  PIN B2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B2
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END MAOI22_x1_0
+
+MACRO MOAI22_x0_0
+  CLASS CORE ;
+  SIZE 1.26 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN B1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B1
+
+  PIN B2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B2
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END MOAI22_x0_0
+
+MACRO MOAI22_x1_0
+  CLASS CORE ;
+  SIZE 1.68 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN B1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B1
+
+  PIN B2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B2
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END MOAI22_x1_0
+
+MACRO MOAI22_x2_0
+  CLASS CORE ;
+  SIZE 1.68 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN B1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B1
+
+  PIN B2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B2
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END MOAI22_x2_0
+
+MACRO MUX2N_0110_x1_0
+  CLASS CORE ;
+  SIZE 6.09 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN I0
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END I0
+
+  PIN I1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END I1
+
+  PIN S
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END S
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END MUX2N_0110_x1_0
+
+MACRO MUX2N_x1_0
+  CLASS CORE ;
+  SIZE 1.26 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN I0
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END I0
+
+  PIN I1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END I1
+
+  PIN S
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END S
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END MUX2N_x1_0
+
+MACRO MUX2_x1_0
+  CLASS CORE ;
+  SIZE 1.47 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN I0
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END I0
+
+  PIN I1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END I1
+
+  PIN S
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END S
+
+  PIN Z
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END Z
+
+END MUX2_x1_0
+
+MACRO MUX2_x2_0
+  CLASS CORE ;
+  SIZE 1.68 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN I0
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END I0
+
+  PIN I1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END I1
+
+  PIN S
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END S
+
+  PIN Z
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END Z
+
+END MUX2_x2_0
+
+MACRO ND2_0011_x1_0
+  CLASS CORE ;
+  SIZE 0.63 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END ND2_0011_x1_0
+
+MACRO ND2_0011_x2_0
+  CLASS CORE ;
+  SIZE 2.415 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END ND2_0011_x2_0
+
+MACRO ND2_0011_x4_0
+  CLASS CORE ;
+  SIZE 1.47 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END ND2_0011_x4_0
+
+MACRO ND2_x1_0
+  CLASS CORE ;
+  SIZE 0.63 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END ND2_x1_0
+
+MACRO ND2_x2_0
+  CLASS CORE ;
+  SIZE 1.05 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END ND2_x2_0
+
+MACRO ND2_x4_0
+  CLASS CORE ;
+  SIZE 2.73 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END ND2_x4_0
+
+MACRO ND3_x1_0
+  CLASS CORE ;
+  SIZE 0.84 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN A3
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A3
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END ND3_x1_0
+
+MACRO ND3_x2_0
+  CLASS CORE ;
+  SIZE 3.36 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN A3
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A3
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END ND3_x2_0
+
+MACRO ND4_x1_0
+  CLASS CORE ;
+  SIZE 1.05 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN A3
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A3
+
+  PIN A4
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A4
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END ND4_x1_0
+
+MACRO ND4_x4_0
+  CLASS CORE ;
+  SIZE 1.0 BY 2.72 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN A3
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A3
+
+  PIN A4
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A4
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END ND4_x4_0
+
+MACRO NR2_0011_x1_0
+  CLASS CORE ;
+  SIZE 0.63 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END NR2_0011_x1_0
+
+MACRO NR2_0011_x2_0
+  CLASS CORE ;
+  SIZE 1.26 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END NR2_0011_x2_0
+
+MACRO NR2_0011_x4_0
+  CLASS CORE ;
+  SIZE 2.31 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END NR2_0011_x4_0
+
+MACRO NR2_0011_x8_0
+  CLASS CORE ;
+  SIZE 8.61 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END NR2_0011_x8_0
+
+MACRO NR2_x1_0
+  CLASS CORE ;
+  SIZE 0.63 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END NR2_x1_0
+
+MACRO NR2_x2_0
+  CLASS CORE ;
+  SIZE 1.89 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END NR2_x2_0
+
+MACRO NR2_x3_0
+  CLASS CORE ;
+  SIZE 3.57 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END NR2_x3_0
+
+MACRO NR2_x4_0
+  CLASS CORE ;
+  SIZE 2.415 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END NR2_x4_0
+
+MACRO NR3_0011_x4_0
+  CLASS CORE ;
+  SIZE 3.36 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN A3
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A3
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END NR3_0011_x4_0
+
+MACRO NR3_x0_0
+  CLASS CORE ;
+  SIZE 0.84 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN A3
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A3
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END NR3_x0_0
+
+MACRO NR3_x1_0
+  CLASS CORE ;
+  SIZE 1.155 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN A3
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A3
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END NR3_x1_0
+
+MACRO NR3_x2_0
+  CLASS CORE ;
+  SIZE 0.84 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN A3
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A3
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END NR3_x2_0
+
+MACRO NR4_x0_0
+  CLASS CORE ;
+  SIZE 1.05 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN A3
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A3
+
+  PIN A4
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A4
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END NR4_x0_0
+
+MACRO NR4_x1_0
+  CLASS CORE ;
+  SIZE 1.47 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN A3
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A3
+
+  PIN A4
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A4
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END NR4_x1_0
+
+MACRO OA211_x0_0
+  CLASS CORE ;
+  SIZE 1.26 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN B
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B
+
+  PIN C
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END C
+
+  PIN Z
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END Z
+
+END OA211_x0_0
+
+MACRO OA211_x1_0
+  CLASS CORE ;
+  SIZE 1.26 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN B
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B
+
+  PIN C
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END C
+
+  PIN Z
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END Z
+
+END OA211_x1_0
+
+MACRO OA21_x0_0
+  CLASS CORE ;
+  SIZE 1.05 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN B
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B
+
+  PIN Z
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END Z
+
+END OA21_x0_0
+
+MACRO OA21_x1_0
+  CLASS CORE ;
+  SIZE 1.05 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN B
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B
+
+  PIN Z
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END Z
+
+END OA21_x1_0
+
+MACRO OA21_x2_0
+  CLASS CORE ;
+  SIZE 2.31 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN B
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B
+
+  PIN Z
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END Z
+
+END OA21_x2_0
+
+MACRO OA221_x0_0
+  CLASS CORE ;
+  SIZE 1.68 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN B1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B1
+
+  PIN B2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B2
+
+  PIN C
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END C
+
+  PIN Z
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END Z
+
+END OA221_x0_0
+
+MACRO OA22_x0_0
+  CLASS CORE ;
+  SIZE 1.47 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN B1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B1
+
+  PIN B2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B2
+
+  PIN Z
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END Z
+
+END OA22_x0_0
+
+MACRO OA31_x0_0
+  CLASS CORE ;
+  SIZE 1.26 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN A3
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A3
+
+  PIN B
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B
+
+  PIN Z
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END Z
+
+END OA31_x0_0
+
+MACRO OA31_x1_0
+  CLASS CORE ;
+  SIZE 1.26 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN A3
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A3
+
+  PIN B
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B
+
+  PIN Z
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END Z
+
+END OA31_x1_0
+
+MACRO OA33_x1_0
+  CLASS CORE ;
+  SIZE 1.68 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN A3
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A3
+
+  PIN B1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B1
+
+  PIN B2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B2
+
+  PIN B3
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B3
+
+  PIN Z
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END Z
+
+END OA33_x1_0
+
+MACRO OAI211_0100_x2_0
+  CLASS CORE ;
+  SIZE 4.62 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN B
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B
+
+  PIN C
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END C
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END OAI211_0100_x2_0
+
+MACRO OAI211_x0_0
+  CLASS CORE ;
+  SIZE 1.05 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN B
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B
+
+  PIN C
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END C
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END OAI211_x0_0
+
+MACRO OAI211_x1_0
+  CLASS CORE ;
+  SIZE 3.78 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN B
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B
+
+  PIN C
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END C
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END OAI211_x1_0
+
+MACRO OAI211_x2_0
+  CLASS CORE ;
+  SIZE 1.89 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN B
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B
+
+  PIN C
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END C
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END OAI211_x2_0
+
+MACRO OAI21_0100_x2_0
+  CLASS CORE ;
+  SIZE 3.78 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN B
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END OAI21_0100_x2_0
+
+MACRO OAI21_0100_x4_0
+  CLASS CORE ;
+  SIZE 4.62 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN B
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END OAI21_0100_x4_0
+
+MACRO OAI21_x1_0
+  CLASS CORE ;
+  SIZE 1.05 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN B
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END OAI21_x1_0
+
+MACRO OAI21_x2_0
+  CLASS CORE ;
+  SIZE 3.78 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN B
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END OAI21_x2_0
+
+MACRO OAI21_x4_0
+  CLASS CORE ;
+  SIZE 3.78 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN B
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END OAI21_x4_0
+
+MACRO OAI221_x0_0
+  CLASS CORE ;
+  SIZE 1.47 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN B1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B1
+
+  PIN B2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B2
+
+  PIN C
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END C
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END OAI221_x0_0
+
+MACRO OAI222_x0_0
+  CLASS CORE ;
+  SIZE 1.68 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN B1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B1
+
+  PIN B2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B2
+
+  PIN C1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END C1
+
+  PIN C2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END C2
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END OAI222_x0_0
+
+MACRO OAI22_1001_x1_0
+  CLASS CORE ;
+  SIZE 1.05 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN B1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B1
+
+  PIN B2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B2
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END OAI22_1001_x1_0
+
+MACRO OAI22_x1_0
+  CLASS CORE ;
+  SIZE 1.05 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN B1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B1
+
+  PIN B2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B2
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END OAI22_x1_0
+
+MACRO OAI22_x2_0
+  CLASS CORE ;
+  SIZE 1.68 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN B1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B1
+
+  PIN B2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B2
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END OAI22_x2_0
+
+MACRO OAI31_x1_0
+  CLASS CORE ;
+  SIZE 1.26 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN A3
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A3
+
+  PIN B
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END OAI31_x1_0
+
+MACRO OAI32_x1_0
+  CLASS CORE ;
+  SIZE 1.47 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN A3
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A3
+
+  PIN B1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B1
+
+  PIN B2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B2
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END OAI32_x1_0
+
+MACRO OAI33_x1_0
+  CLASS CORE ;
+  SIZE 1.68 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN A3
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A3
+
+  PIN B1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B1
+
+  PIN B2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B2
+
+  PIN B3
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END B3
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END OAI33_x1_0
+
+MACRO OR2_x1_0
+  CLASS CORE ;
+  SIZE 0.84 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN Z
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END Z
+
+END OR2_x1_0
+
+MACRO OR3_x1_0
+  CLASS CORE ;
+  SIZE 1.05 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN A3
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A3
+
+  PIN Z
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END Z
+
+END OR3_x1_0
+
+MACRO OR4_x1_0
+  CLASS CORE ;
+  SIZE 1.26 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN A3
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A3
+
+  PIN A4
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A4
+
+  PIN Z
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END Z
+
+END OR4_x1_0
+
+MACRO PLL
+  CLASS BLOCK ;
+  SIZE 181.95 BY 183.66 ;
+  SYMMETRY X Y R90 ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN BWADJ_0
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END BWADJ_0
+
+  PIN BWADJ_1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END BWADJ_1
+
+  PIN BWADJ_2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END BWADJ_2
+
+  PIN BWADJ_3
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END BWADJ_3
+
+  PIN BWADJ_4
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END BWADJ_4
+
+  PIN BWADJ_5
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END BWADJ_5
+
+  PIN BYPASS
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END BYPASS
+
+  PIN CLKF_0
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END CLKF_0
+
+  PIN CLKF_1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END CLKF_1
+
+  PIN CLKF_2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END CLKF_2
+
+  PIN CLKF_3
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END CLKF_3
+
+  PIN CLKF_4
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END CLKF_4
+
+  PIN CLKF_5
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END CLKF_5
+
+  PIN CLKOD_0
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END CLKOD_0
+
+  PIN CLKOD_1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END CLKOD_1
+
+  PIN CLKOD_2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END CLKOD_2
+
+  PIN CLKOD_3
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END CLKOD_3
+
+  PIN CLKOUT
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END CLKOUT
+
+  PIN CLKR_0
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END CLKR_0
+
+  PIN CLKR_1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END CLKR_1
+
+  PIN CLKR_2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END CLKR_2
+
+  PIN CLKR_3
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END CLKR_3
+
+  PIN FBSLIP
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END FBSLIP
+
+  PIN FCLK
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END FCLK
+
+  PIN INTFB
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END INTFB
+
+  PIN PWRDN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END PWRDN
+
+  PIN RCLK
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END RCLK
+
+  PIN RESET
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END RESET
+
+  PIN RFSLIP
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END RFSLIP
+
+  PIN TEST
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END TEST
+
+END PLL
+
+MACRO SRAM
+  CLASS BLOCK ;
+  SIZE 242.7075 BY 141.615 ;
+  SYMMETRY X Y R90 ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A
+
+  PIN AM
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END AM
+
+  PIN BIST
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END BIST
+
+  PIN BWEB
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END BWEB
+
+  PIN BWEBM
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END BWEBM
+
+  PIN CEB
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END CEB
+
+  PIN CEBM
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END CEBM
+
+  PIN CLK
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END CLK
+
+  PIN D
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END D
+
+  PIN DM
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END DM
+
+  PIN Q
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END Q
+
+  PIN RTSEL
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END RTSEL
+
+  PIN SD
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END SD
+
+  PIN SLP
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END SLP
+
+  PIN WEB
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END WEB
+
+  PIN WEBM
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END WEBM
+
+  PIN WTSEL
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END WTSEL
+
+END SRAM
+
+MACRO TIEH_0000
+  CLASS CORE ;
+  SIZE 0.42 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN Z
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END Z
+
+END TIEH_0000
+
+MACRO TIEL_0000
+  CLASS CORE ;
+  SIZE 0.42 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END TIEL_0000
+
+MACRO XNR2_0110_x2_0
+  CLASS CORE ;
+  SIZE 3.36 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END XNR2_0110_x2_0
+
+MACRO XNR2_0110_x4_0
+  CLASS CORE ;
+  SIZE 4.41 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END XNR2_0110_x4_0
+
+MACRO XNR2_x0_0
+  CLASS CORE ;
+  SIZE 1.47 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END XNR2_x0_0
+
+MACRO XNR2_x1_0
+  CLASS CORE ;
+  SIZE 1.89 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END XNR2_x1_0
+
+MACRO XNR2_x2_0
+  CLASS CORE ;
+  SIZE 1.89 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN ZN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END ZN
+
+END XNR2_x2_0
+
+MACRO XOR2_0110_x1_0
+  CLASS CORE ;
+  SIZE 2.52 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN Z
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END Z
+
+END XOR2_0110_x1_0
+
+MACRO XOR2_0110_x2_0
+  CLASS CORE ;
+  SIZE 4.41 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN Z
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END Z
+
+END XOR2_0110_x2_0
+
+MACRO XOR2_x0_0
+  CLASS CORE ;
+  SIZE 1.47 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN Z
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END Z
+
+END XOR2_x0_0
+
+MACRO XOR2_x1_0
+  CLASS CORE ;
+  SIZE 1.47 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN Z
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END Z
+
+END XOR2_x1_0
+
+MACRO XOR3_x0_0
+  CLASS CORE ;
+  SIZE 3.15 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN A3
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A3
+
+  PIN Z
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END Z
+
+END XOR3_x0_0
+
+MACRO XOR4_x0_0
+  CLASS CORE ;
+  SIZE 4.41 BY 1.05 ;
+  SYMMETRY X Y R90 ;
+  SITE CoreSite ;
+  ORIGIN 0.0 0.0 ;
+
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A1
+
+  PIN A2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A2
+
+  PIN A3
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A3
+
+  PIN A4
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END A4
+
+  PIN Z
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 0.0 0.0 0.1400 0.1400 ;
+    END
+  END Z
+
+END XOR4_x0_0
+
+END LIBRARY

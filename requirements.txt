@@ -1,0 +1,31 @@
+# VLSI Physical Design - Requirements File
+# Python 3.8+ required
+
+# Deep Learning Framework
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# PyTorch Geometric and Extensions
+torch-geometric>=2.3.0
+pyg-lib>=0.4.0
+torch-scatter>=2.1.0
+torch-sparse>=0.6.0
+torch-cluster>=1.6.0
+torch-spline-conv>=1.2.0
+
+# Scientific Computing
+numpy>=1.24.0
+scipy>=1.10.0
+pandas>=2.0.0
+
+# Visualization
+matplotlib>=3.7.0
+
+# System Utilities
+psutil>=5.9.0
+
+# Optional: Jupyter Support (if running in Jupyter)
+jupyter>=1.0.0
+ipykernel>=6.0.0
+ipywidgets>=8.0.0

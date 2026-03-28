@@ -1,0 +1,24 @@
+{
+  "design": "user_design",
+  "num_cells": 2,
+  "chip_width": 1.2124355652982142,
+  "chip_height": 1.2124355652982142,
+  "cells": [
+    {
+      "name": "U5",
+      "type": "TIEL_0000",
+      "predicted_x": 0.0,
+      "predicted_y": -1.0,
+      "global_x": 0.014177949495332917,
+      "global_y": 0.0
+    },
+    {
+      "name": "U6",
+      "type": "TIEH_0000",
+      "predicted_x": 1.0,
+      "predicted_y": -1.0,
+      "global_x": 1.0144225339876,
+      "global_y": 0.0
+    }
+  ]
+}
