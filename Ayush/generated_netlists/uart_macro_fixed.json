@@ -1,0 +1,39 @@
+{
+  "config": {
+    "verilog": "Ayush\\netlist.v",
+    "lef": "Ayush\\uart.lef",
+    "out_tcl": "Ayush\\generated_netlists\\uart_macro_fixed.tcl",
+    "out_json": "Ayush\\generated_netlists\\uart_macro_fixed.json",
+    "model_path": "Ayush\\vlsi_placement_model.pth",
+    "normalization_json": null,
+    "die_width": 2000.0,
+    "die_height": 2000.0,
+    "core_margin": 20.0,
+    "placement_grid": 1.0,
+    "min_spacing": 2.0,
+    "macro_area_threshold": 1000.0,
+    "assume_model_output_normalized": true,
+    "allow_synthetic_top_macro": true,
+    "emit_macro_tcl_only_when_gnn": true,
+    "device": "cpu"
+  },
+  "summary": {
+    "top_module": "uart",
+    "num_instances": 215,
+    "num_macros": 1,
+    "num_edges": 1,
+    "placement_source": "heuristic",
+    "gnn_placement_used": false,
+    "macros_emitted_to_tcl": 0
+  },
+  "placements": {
+    "uart_TOP_MACRO": {
+      "x": 1.0,
+      "y": 1.0,
+      "width": 200.0,
+      "height": 200.0,
+      "x2": 201.0,
+      "y2": 201.0
+    }
+  }
+}
