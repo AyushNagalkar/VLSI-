@@ -1,0 +1,40 @@
+{
+  "design": "user_design",
+  "num_cells": 4,
+  "chip_width": 2.581988897471611,
+  "chip_height": 2.581988897471611,
+  "cells": [
+    {
+      "name": "dec",
+      "type": "decoder",
+      "predicted_x": 0.0,
+      "predicted_y": 1.0,
+      "global_x": 0.0,
+      "global_y": 0.0
+    },
+    {
+      "name": "alu_unit",
+      "type": "alu",
+      "predicted_x": 2.2,
+      "predicted_y": 1.0,
+      "global_x": 2.2646906017647175,
+      "global_y": 0.0
+    },
+    {
+      "name": "sched",
+      "type": "scheduler",
+      "predicted_x": 1.0,
+      "predicted_y": 1.0,
+      "global_x": 0.3477731289264475,
+      "global_y": 2.581988897471611
+    },
+    {
+      "name": "rf",
+      "type": "register_file",
+      "predicted_x": 2.2,
+      "predicted_y": 1.0,
+      "global_x": 2.2332569806967357,
+      "global_y": 2.581988897471611
+    }
+  ]
+}

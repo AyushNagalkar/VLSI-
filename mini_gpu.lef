@@ -1,0 +1,201 @@
+VERSION 5.8 ;
+BUSBITCHARS "[]" ;
+DIVIDERCHAR "/" ;
+
+UNITS
+  DATABASE MICRONS 1000 ;
+END UNITS
+
+# ================= ALU =================
+MACRO ALU
+  CLASS CORE ;
+  ORIGIN 0 0 ;
+  SIZE 20 BY 20 ;
+
+  PIN a
+    DIRECTION INPUT ;
+    PORT
+      LAYER metal1 ;
+      RECT 0 8 2 12 ;
+    END
+  END a
+
+  PIN b
+    DIRECTION INPUT ;
+    PORT
+      LAYER metal1 ;
+      RECT 0 4 2 8 ;
+    END
+  END b
+
+  PIN op
+    DIRECTION INPUT ;
+    PORT
+      LAYER metal2 ;
+      RECT 8 18 12 20 ;
+    END
+  END op
+
+  PIN out
+    DIRECTION OUTPUT ;
+    PORT
+      LAYER metal3 ;
+      RECT 18 8 20 12 ;
+    END
+  END out
+
+END ALU
+
+# ================= REGISTER FILE =================
+MACRO REGISTER_FILE
+  CLASS CORE ;
+  ORIGIN 0 0 ;
+  SIZE 25 BY 25 ;
+
+  PIN clk
+    DIRECTION INPUT ;
+    PORT
+      LAYER metal1 ;
+      RECT 0 10 3 15 ;
+    END
+  END clk
+
+  PIN data_in
+    DIRECTION INPUT ;
+    PORT
+      LAYER metal2 ;
+      RECT 0 5 3 10 ;
+    END
+  END data_in
+
+  PIN data_out
+    DIRECTION OUTPUT ;
+    PORT
+      LAYER metal3 ;
+      RECT 22 10 25 15 ;
+    END
+  END data_out
+
+END REGISTER_FILE
+
+# ================= DECODER =================
+MACRO DECODER
+  CLASS CORE ;
+  ORIGIN 0 0 ;
+  SIZE 15 BY 15 ;
+
+  PIN instruction
+    DIRECTION INPUT ;
+    PORT
+      LAYER metal2 ;
+      RECT 0 5 3 10 ;
+    END
+  END instruction
+
+  PIN op
+    DIRECTION OUTPUT ;
+    PORT
+      LAYER metal3 ;
+      RECT 12 10 15 13 ;
+    END
+  END op
+
+END DECODER
+
+# ================= COMPUTE CORE =================
+MACRO COMPUTE_CORE
+  CLASS BLOCK ;
+  ORIGIN 0 0 ;
+  SIZE 40 BY 40 ;
+
+  PIN instruction
+    DIRECTION INPUT ;
+    PORT
+      LAYER metal2 ;
+      RECT 0 15 5 25 ;
+    END
+  END instruction
+
+  PIN reg_data
+    DIRECTION INPUT ;
+    PORT
+      LAYER metal1 ;
+      RECT 0 5 5 15 ;
+    END
+  END reg_data
+
+  PIN result
+    DIRECTION OUTPUT ;
+    PORT
+      LAYER metal3 ;
+      RECT 35 15 40 25 ;
+    END
+  END result
+
+END COMPUTE_CORE
+
+# ================= SCHEDULER =================
+MACRO SCHEDULER
+  CLASS CORE ;
+  ORIGIN 0 0 ;
+  SIZE 20 BY 15 ;
+
+  PIN instruction
+    DIRECTION INPUT ;
+    PORT
+      LAYER metal2 ;
+      RECT 0 5 3 10 ;
+    END
+  END instruction
+
+  PIN dispatched_instr
+    DIRECTION OUTPUT ;
+    PORT
+      LAYER metal3 ;
+      RECT 17 5 20 10 ;
+    END
+  END dispatched_instr
+
+END SCHEDULER
+
+# ================= TOP GPU =================
+MACRO MINI_GPU
+  CLASS BLOCK ;
+  ORIGIN 0 0 ;
+  SIZE 120 BY 120 ;
+
+  PIN clk
+    DIRECTION INPUT ;
+    PORT
+      LAYER metal1 ;
+      RECT 0 55 5 65 ;
+    END
+  END clk
+
+  PIN instruction
+    DIRECTION INPUT ;
+    PORT
+      LAYER metal2 ;
+      RECT 0 80 10 100 ;
+    END
+  END instruction
+
+  PIN data_in
+    DIRECTION INPUT ;
+    PORT
+      LAYER metal2 ;
+      RECT 0 20 10 40 ;
+    END
+  END data_in
+
+  PIN final_out
+    DIRECTION OUTPUT ;
+    PORT
+      LAYER metal3 ;
+      RECT 110 50 120 70 ;
+    END
+  END final_out
+
+END MINI_GPU
+
+END LIBRARY

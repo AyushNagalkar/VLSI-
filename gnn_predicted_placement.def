@@ -1,0 +1,11 @@
+VERSION 5.8 ;
+DESIGN user_design ;
+
+COMPONENTS 4 ;
+  - dec decoder + PLACED ( 0 2000 ) N ;
+  - alu_unit alu + PLACED ( 4400 2000 ) N ;
+  - sched scheduler + PLACED ( 2000 2000 ) N ;
+  - rf register_file + PLACED ( 4400 2000 ) N ;
+END COMPONENTS
+
+END DESIGN
